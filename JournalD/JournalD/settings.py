@@ -82,12 +82,12 @@ DATABASES = {
 """
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'solDB',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'djangodeploy',
         'USER': 'sol',
-        'PASSWORD': 'trainingsol',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PORT': '',
     }
 }
 
