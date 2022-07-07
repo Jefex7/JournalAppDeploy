@@ -32,7 +32,7 @@ class TestJournal(unittest.TestCase):
 
     def test_delete_page(self):
         # Issue a Get request.
-        response = self.client.get('/delete_resource/#')
+        response = self.client.get('/delete_resource/')
 
         # Check that the response is 200 Ok
         self.assertEquals(response.status_code, 200)
